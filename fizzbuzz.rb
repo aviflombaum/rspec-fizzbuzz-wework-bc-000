@@ -1,8 +1,13 @@
 def is_odd?(number)
-  puts number % 2 != 0
+  result = number % 2 != 0
+  
+  puts result
+  
+  result
 end 
 
 
 if is_odd?(5)
-  puts "This wont print"
+  puts "This will print"
 end
+
